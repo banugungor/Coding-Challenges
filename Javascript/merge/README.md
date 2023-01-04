@@ -21,7 +21,7 @@ const merge = (A, B) => {
 
   for (let i = 0; i < B.length; i++) {
   
-    A.push(B[i]);
+   A.push(B[i]);
   }
   
   return A;
