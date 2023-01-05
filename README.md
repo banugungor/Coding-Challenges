@@ -1,7 +1,7 @@
 # Coding-Challenges
-<h1>Javascript</h1>
+<h2>Javascript</h2>
 
 -Merge Arrays
 
-<h1>Html-Css</h1>
+<h2>Html-Css</h2>
 -Grid Layout
