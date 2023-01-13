@@ -43,6 +43,9 @@ h2 {
 }
 #btn {
   padding: 1rem;
+  cursor: pointer;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.8rem;
 }
 
 h2,
