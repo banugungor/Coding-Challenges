@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 238, 246);
+}
+.links {
+}
+.nav-links {
+  display: flex;
+}
+h4 {
+  padding: 2rem;
+}
+li {
+  list-style: none;
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+#btn {
+  padding: 1rem;
+}
+
+h2,
+h4,
+a {
+  font-weight: 900;
+}
