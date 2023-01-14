@@ -1,9 +1,9 @@
-# Coding-Challenges
-<h2>Javascript</h2>
+## Coding-Challenges
+<h3>Javascript</h3>
 
 -Merge Arrays
 
-<h2>Html-Css</h2>
+<h3>Html-Css</h3>
 -Grid Layout
 
 -Ios Calculator
