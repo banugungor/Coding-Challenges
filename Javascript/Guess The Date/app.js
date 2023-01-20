@@ -144,16 +144,16 @@ nextQuestion.addEventListener("click", randomQuestion);
 
 function result() {
   let randomObj = allQuestions[Math.floor(Math.random() * allQuestions.length)];
-  if (allQuestions.findIndex((x) => x.answer === x.question)) {
-    
+  if (input.value == randomObj.answer) {
     circle.style.background = "#599916";
     questionMark.style.fontSize = "5rem";
-  } else {
+  } else if (input.value !== randomObj.answer) {
     questionMark.style.color = "#AA1945";
   }
 }
 
 checkButton.addEventListener("click", result);
+
 // checkButton.addEventListener("check", () => {
 //   questionMark.style.color = "#AA1945";
 //   // console.log(+input.value);
@@ -168,3 +168,5 @@ checkButton.addEventListener("click", result);
 //   // }
 // });
 // console.log(allQuestions.findIndex(x=>x.answer === 323));
+// allQuestions.findIndex((x) => x.answer === x.question)
+//inputtan alınan bir değer nasıl stringten numbera çevrilir
