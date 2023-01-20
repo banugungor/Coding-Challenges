@@ -10,3 +10,5 @@
 -Grid Layout
 
 -Ios Calculator 
+
+-Responsive Footer
