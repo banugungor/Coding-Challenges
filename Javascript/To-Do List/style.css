@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(./hand-painted-watercolor-background.jpg);
+  background: url(./img/hand-painted-watercolor-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
