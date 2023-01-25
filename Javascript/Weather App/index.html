@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400;500&family=Comic+Neue&family=Manrope:wght@200;400;500;700;800&family=Moon+Dance&family=Neucha&family=Patrick+Hand+SC&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Raleway:wght@200;300;400;500;600;700;800&family=Red+Hat+Display:wght@300;400&family=Shadows+Into+Light&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main>
+      <section class="first-sec">
+        <h1>Weather</h1>
+        <form class="search">
+          <input type="text" class="inputText" placeholder="Search Location" />
+          <button class="btn">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </section>
+      <section class="bck">
+        <section class="info">
+          <p id="city">Country, city</p>
+          <div class="other">
+            <p id="temperature">--</p>
+            <span>°C</span>
+          </div>
+        </section>
+        <section>
+          <p id="weather-condition">Weather</p>
+          <div class="felt">
+            <p class="rf">Real Feel: </p>
+            <p id="real-feel">-</p>
+            <!-- <span>°C</span> -->
+          </div>
+        </section>
+        <section>
+          <p id="humidity">Humidity</p>
+          <div class="humidity-degree">
+            <p id="humidity-real">-</p>
+
+           
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

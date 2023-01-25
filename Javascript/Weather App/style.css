@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/8140.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+section {
+  margin: 1.5rem;
+}
+h1 {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.bck {
+  width: 35%;
+  text-align: center;
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.85)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.227);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.842);
+}
+.first-sec {
+  width: 100%;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 2rem; */
+
+  /* max-width: 100%; */
+}
+.search::placeholder {
+  border: none;
+}
+.search:active {
+  border: none;
+}
+.inputText {
+  padding: 0.8rem;
+  border: none;
+  width: 35%;
+  height: 2rem;
+}
+input,
+textarea {
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.85)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.227);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.842);
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.other {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+.rf {
+  display: block;
+  margin-right: 5px;
+}
+.felt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+.btn {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: none;
+  margin-left: 30rem;
+}
+
+.fa-solid {
+  font-size: 1rem;
+}
+.fa-circle {
+  line-height: 0.1px;
+  font-weight: 0.1px;
+  font-size: 0.1px;
+  transform: translate(5px, -8px);
+  -webkit-text-size-adjust: 0.1px;
+  font-size: 0.1px !important;
+}
+#weather-condition {
+}
+.felt {
+}
+#real-feel {
+  display: block;
+}
+
+#fa-circle {
+}
+#humidity {
+}
+img {
+  width: 20rem;
+}
+span {
+  margin-left: 5px;
+}
