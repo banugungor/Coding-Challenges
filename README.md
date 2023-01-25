@@ -3,10 +3,12 @@
 
 -Merge Arrays
 
--Color Flipper
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Color%20Flipper/hex.html" rel="nofollow">Color Flipper</a>
 
 <h3>Html-Css</h3>
 
 -Grid Layout
 
 -Ios Calculator 
+
+-Responsive Footer
