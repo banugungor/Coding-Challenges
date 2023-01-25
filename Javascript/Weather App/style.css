@@ -10,17 +10,27 @@ body {
   height: 100vh;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
+  background-image: url(./assets/8140.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(./assets/8140.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.85)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.227);
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.842);
+
+  min-height: 85vh;
+  width: 40%;
 }
 section {
   margin: 1.5rem;
@@ -34,17 +44,7 @@ h1 {
   font-size: 2rem;
 }
 .bck {
-  width: 35%;
-  text-align: center;
-  background: linear-gradient(
-    13deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.85)
-  );
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.227);
-  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.842);
+  text-align: start;
 }
 .first-sec {
   width: 100%;
@@ -66,7 +66,7 @@ h1 {
 .inputText {
   padding: 0.8rem;
   border: none;
-  width: 35%;
+  width: 58%;
   height: 2rem;
 }
 input,
@@ -77,7 +77,7 @@ textarea {
     rgba(255, 255, 255, 0.85)
   );
   backdrop-filter: blur(10px);
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid rgba(255, 255, 255, 0.227);
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.842);
 }
@@ -92,7 +92,7 @@ input:focus {
   margin-top: 0.7rem;
 }
 .rf {
-  display: block;
+  display: inline;
   margin-right: 5px;
 }
 .felt {
@@ -107,7 +107,7 @@ input:focus {
   width: 2rem;
   background-color: transparent;
   border: none;
-  margin-left: 30rem;
+  margin-left: 20rem;
 }
 
 .fa-solid {
@@ -122,20 +122,29 @@ input:focus {
   font-size: 0.1px !important;
 }
 #weather-condition {
+  margin-bottom: 1.1rem;
 }
 .felt {
 }
 #real-feel {
-  display: block;
+  display: inline;
+  text-align: start;
 }
 
 #fa-circle {
 }
+.humidity-degree {
+  display: flex;
+}
 #humidity {
+  margin-right: 5px;
 }
 img {
   width: 20rem;
 }
 span {
   margin-left: 5px;
+}
+p {
+  font-size: 1.5rem;
 }
