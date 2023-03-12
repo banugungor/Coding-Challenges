@@ -18,6 +18,6 @@
 
 -<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Bootstrap/Responsive%20Footer/">Responsive Footer</a></a>
 
-<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Satellite%20Animation/" rel="nofollow">
+-<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Satellite%20Animation/" rel="nofollow">
 Satellite Animation
 </a>
