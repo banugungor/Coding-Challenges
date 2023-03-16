@@ -9,6 +9,9 @@
 
 -<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Weather%20App/">Weather App</a></a>
 
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/People%20Counter/" rel="nofollow">Passenger Counter</a>
+
+
 
 <h3>Html-Css</h3>
 
