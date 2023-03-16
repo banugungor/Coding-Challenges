@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  background-image: url(./background_image.jpg);
+
+  height: 100vh;
+  text-align: center;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.container {
+  align-items: center;
+}
+
+.container-black {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 20px 50px;
+  /* display: grid;
+  place-content: center;  */
+}
+header {
+  padding-top: 50px;
+}
+
+span.net {
+  left: 6.94%;
+  right: 6.94%;
+  top: 4.11%;
+  bottom: 89.05%;
+  font-family: "Bowlby One SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 0%;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+span.flix {
+  left: 6.94%;
+  right: 6.94%;
+  top: 4.11%;
+  bottom: 89.05%;
+  font-family: "Bowlby One SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 0%;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ff0000;
+}
+
+header h3 {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 0%;
+
+  /* or 0px */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  padding: 35px;
+}
+
+.form-box {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  width: 450px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  margin: 20px;
+  padding: 10px;
+}
+
+.box {
+}
+
+.information-box {
+}
+
+div.information-box label {
+  display: block;
+  align-items: left;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  width: 46px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+div.information-box input {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+}
+div.information-box input::placeholder {
+  padding: 7px;
+  color: #5b5151;
+  font-size: 14px;
+  line-height: 0%;
+}
+div.information-box label.ct {
+  display: block;
+  width: 300px;
+}
+/* div.information-box select {
+  display: block;
+  align-items: left;
+  text-align: left;
+} */
+
+div.mov-box {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "roboto";
+}
+
+.movie-type-options {
+  align-items: left;
+}
+div.information-box select {
+  width: 100%;
+  height: 60px;
+  padding: 7px;
+}
+.gender-box {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "roboto";
+}
+
+.feedback-box {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "roboto";
+}
+
+textarea {
+}
+div.feedback-box button {
+}
+
+button {
+}
+
+.container-box {
+}
