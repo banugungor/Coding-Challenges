@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: center;
+  flex-flow: column;
+  background-color: beige;
+  margin-top: 10rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+button {
+  margin: 1rem auto;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(0, 0, 0);
+}
+
+#save-btn {
+  background: rgb(224, 224, 224);
+  color: black;
+}
+
+#save-el {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
