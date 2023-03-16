@@ -29,3 +29,7 @@ Netflix
 -<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Satellite%20Animation/" rel="nofollow">
 Satellite Animation
 </a>
+
+<h3>React</h3>
+
+-<a href="https://react-horoscope-page.netlify.app/" rel="nofollow">Horoscope Page</a>
