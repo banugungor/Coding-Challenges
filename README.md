@@ -2,7 +2,7 @@
 
 <h3>Javascript</h3>
 
--Merge Arrays
+-<a href="https://github.com/banugungor/Coding-Challenges/tree/main/Javascript/merge" rel="nofollow">Merge Arrays</a> 
 
 -<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Color%20Flipper/hex.html" rel="nofollow">Color Flipper</a>
 
