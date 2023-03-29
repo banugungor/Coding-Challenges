@@ -5,4 +5,4 @@
 
 #My Gif 
 
-![](https://github.com/banugungor/cactus-parallac-website/blob/main/cactus-website.gif)
+![](https://github.com/banugungor/Coding-Challenges/blob/main/Html%20-%20Css/Cactus%20Parallac%20Website/cactus-website.gif?raw=true)
