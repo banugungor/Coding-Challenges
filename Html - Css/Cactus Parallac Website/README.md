@@ -1,5 +1,5 @@
 <h1>Cactus Parallac Website</h1>
-<a href="https://banugungor.github.io/cactus-parallac-website/" rel="nofollow">Go to page!</a>
+<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Cactus%20Parallac%20Website/">Go to page!</a>
 
 
 
