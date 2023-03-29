@@ -1,17 +1,5 @@
 ## Coding-Challenges
 
-<h3>Javascript</h3>
-
--<a href="https://banugungor.github.io/Coding-Challenges/Javascript/People%20Counter/" rel="nofollow"> Passenger Counter</a>
-
--<a href="https://github.com/banugungor/Coding-Challenges/tree/main/Javascript/merge" rel="nofollow"> Merge Arrays</a>
-
--<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Color%20Flipper/hex.html" rel="nofollow"> Color Flipper</a>
-
--<a href="https://banugungor.github.io/Coding-Challenges/Javascript/To-Do%20List/"> To Do List</a></a>
-
--<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Weather%20App/"> Weather App</a></a>
-
 <h3>Html-Css</h3>
 
 -<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Netflix/" rel="nofollow">
@@ -31,6 +19,19 @@ Google
 -<a href="https://banugungor.github.io/Coding-Challenges/Html%20-%20Css/Satellite%20Animation/" rel="nofollow">
 Satellite Animation
 </a>
+
+<h3>Javascript</h3>
+
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/People%20Counter/" rel="nofollow"> Passenger Counter</a>
+
+-<a href="https://github.com/banugungor/Coding-Challenges/tree/main/Javascript/merge" rel="nofollow"> Merge Arrays</a>
+
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Color%20Flipper/hex.html" rel="nofollow"> Color Flipper</a>
+
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/To-Do%20List/"> To Do List</a></a>
+
+-<a href="https://banugungor.github.io/Coding-Challenges/Javascript/Weather%20App/"> Weather App</a></a>
+
 
 <h3>React</h3>
 
