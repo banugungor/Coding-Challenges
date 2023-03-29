@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.background-container--image1 {
+  background-image: url(./img/cactus-pot-plant-against-wooden-background.jpg);
+  min-height: 100%;
+}
+.background-container--image2 {
+  background-image: url(./img/closeup-shot-cactus-plants-isolated-white-background.jpg);
+  min-height: 80%;
+}
+.background-container--image3 {
+  background-image: url(./img/closeup-shot-green-leaves-aloe-plant.jpg);
+}
+.background-container--image4 {
+  background-image: url(./img/aloe-vera-slices-skin-care.jpg);
+}
+
+.heading-container {
+  /* vertical-align: middle;
+  text-align: center; */
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+  margin: 15rem 0;
+}
+.heading-container__heading--clarusway {
+  background-color: rgb(21, 55, 42);
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset rgb(144, 152, 127);
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+.heading-container__heading--cacti {
+  background-color: rgb(30, 48, 42);
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset rgb(192,200,175);
+  outline-offset: 1rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+}
+.background-container--image1,
+.background-container--image2,
+.background-container--image3,
+.background-container--image4 {
+  background-position: center;
+  background-size: cover; /*resmin hepsini ekrana sığdırır. */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  opacity: 0.7;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.section--light {
+  background-color: rgb(212, 221, 192);
+  color: rgb(76, 74, 74);
+}
+.heading-container__heading--logo {
+  width: 35rem;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+.section--dark {
+  color: white;
+  background-color: rgb(124, 133, 91);
+}
+.section--third {
+  background-color: rgb(212, 221, 192);
+  color: rgb(76, 74, 74);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
